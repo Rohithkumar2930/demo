@@ -35,7 +35,7 @@ html {
 
 /* ============Navigation Bar============= */
 .navbar {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -61,16 +61,17 @@ html {
 }
 
 .dropdown:hover>.dropdown-menu,
-.dropend:hover>.dropdown-menu {
+.dropend:hover>.dropdown-menu,
+.dropstart:hover>.dropdown-menu {
     display: block;
     margin: .125em;
     margin-left: .125em;
 }
 
-
-
 @media screen and(min-width: 769px) {
-    .dropend:hover>.dropdown-menu {
+
+    .dropend:hover>.dropdown-menu,
+    .dropstart:hover>.dropdown-menu {
         position: absolute;
         top: 0;
         right: 100%;
