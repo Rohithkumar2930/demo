@@ -115,12 +115,6 @@ html {
 
 /* ============About Section ============= */
 
-
-.about {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
 .about-header h1 {
     margin: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -150,17 +144,25 @@ html {
     height: 400px;
 }
 
+#About {
+
+    background-color: rgb(237, 237, 237, .9);
+    /* background-color: rgba(164, 199, 241, 0.9); */
+    backdrop-filter: blur(10px);
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
 
 /* ============About Section End ============= */
 
 /* ============Focus Section ============= */
 .Focus {
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
 }
 
 .Focus-Headeer {
     font-size: 45px;
-    margin: 50px;
+    /* margin: 50px; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -171,7 +173,7 @@ html {
 
 .Focus-header h2 {
     padding-top: 30px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     margin-bottom: 0px;
     font-size: 45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -276,6 +278,13 @@ html {
 }
 
 .product-card {
+
+    background-color: rgb(237, 237, 237, .9);
+    /* background-color: rgba(164, 199, 241, 0.9); */
+    backdrop-filter: blur(10px);
+}
+
+.product-card {
     margin-bottom: 30px;
     max-width: 100%;
     height: 465px;
@@ -354,7 +363,7 @@ html {
 
 .Focus {
     /* background: url(photos/abstract-digital-grid-black-background_53876-97647.avif); */
-    background: url(photos/bg.jpg);
+    /* background: url(photos/bg.jpg); */
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
