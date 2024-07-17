@@ -43,6 +43,8 @@ html {
     /* overflow: hidden; */
 }
 
+
+
 .navbar-brand {
     font-size: 17px;
     font-weight: 700;
@@ -113,32 +115,66 @@ html {
 
 /* ============About Section ============= */
 
-.about-section {
-    padding: 80px 0;
-    background-color: #f8f9fa;
+
+.about {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-.about-heading {
-    font-weight: 500px;
-    margin-bottom: 30px;
+.about-header h1 {
+    margin: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .about-content {
-    margin-bottom: 30px;
+    padding-left: 10px;
 }
 
-.about-image {
-    max-width: 100%;
-    height: 100%;
-    border-radius: 5px;
+.about-content p {
+    padding-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 16.5px;
 }
+
+.about-content h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btn_about {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about-img img {
+    width: 95%;
+    height: 400px;
+}
+
 
 /* ============About Section End ============= */
 
 /* ============Focus Section ============= */
+.Focus {
+    padding-bottom: 60px;
+}
+
+.Focus-Headeer {
+    font-size: 45px;
+    margin: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sub-header {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 .Focus-header h2 {
+    padding-top: 30px;
     margin-top: 40px;
     margin-bottom: 0px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .slider-item {
@@ -164,11 +200,14 @@ html {
 }
 
 .slider-text h2 {
-    font-size: 2.5rem;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 10px;
 }
 
 .slider-text p {
+    margin-left: 100px;
+    margin-right: 100px;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
@@ -190,34 +229,56 @@ html {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+
+    .sub-header {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     .slider-text {
         bottom: 0;
         padding: 10px;
     }
 
     .slider-text h2 {
-        font-size: 2rem;
+        font-size: 1.3rem;
         margin-bottom: 5px;
     }
 
     .slider-text p {
-        font-size: 1.3rem;
+        font-size: .5rem;
+        margin-left: 5px;
+        margin-right: 5px;
         margin-bottom: 10px;
     }
 
     .slider-button {
-        font-size: 1rem;
-        padding: 8px 16px;
+        font-size: .8rem;
+        margin-bottom: 20px;
+        padding: 2px 4px;
+    }
+
+    .btn {
+        font-size: .8rem;
+        margin-bottom: 25px;
+        padding: 2px 2px;
     }
 }
 
 /* ============Focus Section End============= */
 
 /* ============Home Automation Solution Section ============= */
+.Solution-header h2 {
+    padding-top: 20px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
 .product-card {
     margin-bottom: 30px;
     max-width: 100%;
-    height: 480px;
+    height: 465px;
 }
 
 .product-card img {
@@ -231,25 +292,154 @@ html {
     margin-top: 5px;
 }
 
+/* CSS for hover effect on product cards */
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    /* Moves the card up slightly on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    /* Adds a shadow effect on hover */
+}
+
+.card-img-top {
+    height: 200px;
+    /* Adjust height of the card image */
+    object-fit: cover;
+    /* Ensures the image covers the entire space */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.product-card .card-body {
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#Card a {
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .card-text {
+        font-size: 15px;
+    }
+
+    .product-card img {
+        max-width: 100%;
+        height: 260px;
+    }
+
+}
+
+.Focus {
+    /* background: url(photos/abstract-digital-grid-black-background_53876-97647.avif); */
+    background: url(photos/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ---------- */
+
 /* ============Home Automation Solution Section end============= */
+
+/* ============Contact Section ============= */
+.Contact {
+    background: url(photos/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px;
+}
+
+.Contact-Header {
+    margin-bottom: 40px;
+}
+
+.Contact {
+    padding-bottom: 70px;
+}
+
+.Contact-Header h2 {
+    padding-top: 50px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Address {
+    margin-top: 20px;
+}
+
+#Contact-content {
+    margin-top: 20px;
+}
+
+.qr-code-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.qr-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    display: none;
+}
+
+.qr-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.qr-code-container:hover .qr-text {
+    display: block;
+}
+
+/* ============Contact End Section ============= */
 
 /* ============Product List Section ============= */
 
-.about {
+.Product {
     margin: 100px;
 }
 
-.about-h1 {
+.Product-h1 {
     padding-top: 20px;
 }
 
-.about-content p {
+.Product-content p {
     padding-top: 2px;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 16.5px;
 }
 
-.about-img img {
+.Product-img img {
     width: 100%;
     height: 485px;
 }
