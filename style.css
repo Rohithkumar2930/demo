@@ -566,7 +566,7 @@ footer {
 }
 
 .Gate {
-    background-color: rgb(165, 188, 243);
+    background-color: rgb(237, 237, 237, .9);
 }
 
 .button {
@@ -595,5 +595,8 @@ footer {
     }
 }
 
+#Gate1 {
+    margin-bottom: 30px;
+}
 
 /* ============Gate-automation solution end Section ============= */
