@@ -495,6 +495,7 @@ html {
 }
 
 .filter-btn {
+
     padding: 8px 16px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -515,7 +516,8 @@ html {
 }
 
 .filters {
-    margin-left: 90%;
+    /* width: 100%; */
+    margin-left: 80%;
     margin-bottom: 30px;
     border: #333 solid 3px;
 }
@@ -529,7 +531,6 @@ html {
     }
 
 }
-
 
 
 .solution {
@@ -561,8 +562,12 @@ footer {
 /* ============Gate-automation solution Section ============= */
 .Gate-Automation-Solution {
     margin-top: 5%;
-
     padding-bottom: 30px;
+}
+
+#gate-about {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .Gate {
@@ -570,8 +575,8 @@ footer {
 }
 
 .button {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .button a {
