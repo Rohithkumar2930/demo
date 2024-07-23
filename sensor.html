@@ -108,57 +108,69 @@
         <div class="row" id="Product2">
             <div class="col-xl-6 col-lg-6 col-md--12 col-sm-12 col-xs-12">
                 <div class="Product-img">
-                    <img src="photos/home4.webp" alt="">
+                    <img src="photos/PIR.jpg" alt="" id="ph1">
                 </div>
             </div>
 
             <div class="col-xl-6 col-lg-6 col-md--12 col-sm-12 col-xs-12">
                 <div class="Product-content">
-                    <h1 class="Product-h1">Empowering Smart Living and Security Solutions Since 2010</h1>
-                    <p>GVR Groups has established itself as a premier provider of smart home automation and
-                        electronic security solutions in Chennai and Coimbatore since 2010. As an authorized dealer
-                        for Control4, a leading USA-based brand in smart home automation, and other esteemed brands
-                        like Panasonic and GM Automation. Our team of experienced engineers is certified in
-                        Control4-USA,
-                        AMX-USA, Bticino-Italy, Merten-Germany, and Helvar-UK, ensuring expertise in a wide range of
-                        automation technologies.Specializing in lighting automation, curtain automation, video
-                        integration, and more, we
-                        cater to new constructions, offices, and retrofit projects. In the realm of electronic
-                        security, we provide comprehensive services including CCTV systems, digital door locks, fire
-                        alarms, motion sensors, and advanced automation solutions like floor cleaning robots and
-                        swimming pool cleaners. GVR Groups remains dedicated to transforming spaces with innovative
-                        technology and reliable service.
-                    </p>
+                    <h1 class="Product-h1">PIR Sensor for Restroom</h1>
+                    Motion sensors play a critical role in enhancing both security and convenience within smart homes,
+                    whether they are placed indoors or outdoors. These sensors detect movement and can trigger various
+                    automated actions or alerts, thereby contributing significantly to the overall functionality and
+                    safety of a home.
+
+                    Importance of Motion Sensors in Smart Homes
+                    Security Enhancement
+                    Motion sensors are essential for detecting unauthorized movement both inside and outside the home.
+                    When integrated into a smart home system like Control4, they can trigger alarms, activate lights, or
+                    initiate video recording when motion is detected in sensitive areas such as the front porch, living
+                    room, garage, or backyard. This proactive approach helps deter intruders and enhances overall
+                    security.
+
+                    Automation and Convenience
+                    Beyond security, motion sensors contribute to the convenience of daily living in smart homes. For
+                    instance, they can automatically turn on lights when someone enters a room or hallway, ensuring safe
+                    navigation in low-light conditions. In outdoor spaces like the backyard, motion-activated lighting
+                    not only enhances security but also extends usability during evenings.
                 </div>
             </div>
         </div>
         <div class="row" id="Product1">
             <div class="col-xl-6 col-lg-6 col-md--12 col-sm-12 col-xs-12">
                 <div class="Product-content">
-                    <h1 class="Product-h1">Empowering Smart Living and Security Solutions Since 2010</h1>
-                    <p>GVR Groups has established itself as a premier provider of smart home automation and
-                        electronic security solutions in Chennai and Coimbatore since 2010. As an authorized dealer
-                        for Control4, a leading USA-based brand in smart home automation, and other esteemed brands
-                        like Panasonic and GM Automation. Our team of experienced engineers is certified in
-                        Control4-USA,
-                        AMX-USA, Bticino-Italy, Merten-Germany, and Helvar-UK, ensuring expertise in a wide range of
-                        automation technologies.Specializing in lighting automation, curtain automation, video
-                        integration, and more, we
-                        cater to new constructions, offices, and retrofit projects. In the realm of electronic
-                        security, we provide comprehensive services including CCTV systems, digital door locks, fire
-                        alarms, motion sensors, and advanced automation solutions like floor cleaning robots and
-                        swimming pool cleaners. GVR Groups remains dedicated to transforming spaces with innovative
-                        technology and reliable service.
+                    <h1 class="Product-h1">Key Features and Benefits:</h1>
+                    <p>Integration with Smart Home Systems
+                        Motion sensors seamlessly integrate with smart home systems like Control4, allowing for
+                        centralized control and automation. Homeowners can configure custom rules and automation
+                        routines based on motion events. For example, triggering the HVAC system to adjust temperatures
+                        based on occupancy patterns or sending notifications to smartphones when motion is detected in
+                        specified areas.
+
+                        Versatility in Placement
+                        Modern motion sensors are designed to be versatile in placement, accommodating various
+                        environments and applications. Indoor sensors are typically smaller and blend discreetly into
+                        the home decor, while outdoor sensors are weather-resistant and capable of detecting motion over
+                        larger areas. This flexibility allows homeowners to tailor their security and automation setups
+                        according to specific needs and preferences.
+
+                        Energy Efficiency
+                        Motion sensors contribute to energy efficiency by ensuring that lights and appliances are only
+                        activated when needed. In rooms with infrequent occupancy, such as guest bedrooms or storage
+                        areas, lights can automatically turn off after a period of no motion, reducing unnecessary
+                        energy consumption.
                     </p>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md--12 col-sm-12 col-xs-12">
                 <div class="Product-img">
-                    <img src="photos/home5.webp" alt="">
+                    <img src="photos/sensor.webp" alt="" id="ph1">
                 </div>
             </div>
         </div>
         <!-- </div> -->
+
+
     </section>
 
 
@@ -172,6 +184,40 @@
             <p>&copy; 2024 GVR Groups. All rights reserved.</p>
         </div>
     </footer>
+    <style>
+        /* Ensure columns stack vertically on small screens */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Media query for small screens (up to 768px width) */
+        @media (max-width: 768px) {
+
+            /* Reorder columns for Product1 row */
+            #Product1 .col-xl-6:nth-child(1),
+            #Product1 .col-lg-6:nth-child(1),
+            #Product1 .col-md--12:nth-child(1),
+            #Product1 .col-sm-12:nth-child(1),
+            #Product1 .col-xs-12:nth-child(1) {
+                order: 2;
+            }
+
+            #Product1 .col-xl-6:nth-child(2),
+            #Product1 .col-lg-6:nth-child(2),
+            #Product1 .col-md--12:nth-child(2),
+            #Product1 .col-sm-12:nth-child(2),
+            #Product1 .col-xs-12:nth-child(2) {
+                order: 1;
+            }
+        }
+
+        /* Additional styling for images */
+        .Product-img img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

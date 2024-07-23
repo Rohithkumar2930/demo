@@ -321,6 +321,9 @@ html {
     margin-top: 5px;
 }
 
+#product-name a {
+    text-decoration: none;
+}
 
 
 
@@ -383,6 +386,9 @@ html {
         height: 260px;
     }
 
+    .Product {
+        margin: 10px;
+    }
 }
 
 .Focus {
@@ -457,9 +463,12 @@ html {
 /* ============Contact End Section ============= */
 
 /* ============Product List Section ============= */
+#ph1 {
+    height: 600px;
+}
 
 .Product {
-    margin: 100px;
+    margin-top: 100px;
 }
 
 .Product-h1 {
@@ -470,6 +479,10 @@ html {
     padding-top: 2px;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 16.5px;
+}
+
+.Product-content {
+    margin: 25px;
 }
 
 .Product-img img {
@@ -598,6 +611,8 @@ footer {
         margin-top: 15%;
 
     }
+
+
 }
 
 #Gate1 {
