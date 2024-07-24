@@ -1,3 +1,15 @@
+// Close dropdown menu when clicking outside
+document.addEventListener('click', function (e) {
+    var isDropdownMenu = e.target.matches('.dropdown-menu *, .dropdown-menu');
+    if (!isDropdownMenu) {
+        var dropdowns = document.querySelectorAll('.dropdown-menu.show');
+        dropdowns.forEach(function (dropdown) {
+            dropdown.classList.remove('show');
+        });
+    }
+});
+
+
 document.addEventListener('DOMContentLoaded', function () {
     const filterButtons = document.querySelectorAll('.filter-btn');
     const productItems = document.querySelectorAll('.product-item');
@@ -22,4 +34,24 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// Function to open WhatsApp
+function openWhatsApp() {
+    let phoneNumber = "9840379299";
+    let message = "Hello, Welcome to GVR Groups";
 
+    // Construct WhatsApp URL
+    let url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+    // Open in new tab
+    window.open(url, '_blank');
+}
+
+
+
+function sendEmail() {
+    let emailAddress = "eht@gvrgroups.com";
+    let subject = "Contact Request";
+    let body = "Hello, I would like to inquire about your services.";
+    let url = `https://mail.google.com/mail/?view=cm&to=${emailAddress}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.open(url, '_blank');
+}

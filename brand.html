@@ -29,9 +29,9 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#About">About</a>
+                            <a class="nav-link" href="index.html#About">About</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown" id="Solution-nav">
                             <a class="nav-link" href="#Service" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Solutions
@@ -48,8 +48,8 @@
                                 <li><a class="dropdown-item" href="Digital-Door-Lock.html">Digital Door Lock</a>
                                 </li>
 
-                                <li class="nav-item dropstart">
-                                    <a class="nav-link" href="#Service" role="button" data-bs-toggle="dropdown"
+                                <li class="nav-item dropstart" id="d1">
+                                    <a class="nav-link" id="d2" href="#Service" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         Touch Switches
                                     </a>
@@ -59,16 +59,16 @@
                                         <li><a class="dropdown-item" href="Touch-Switches.html">Fan Control</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="">AC Control</a>
+                                <li><a class="dropdown-item" href="AC-Control.html">AC Control</a>
                                 </li>
                                 <li><a class="dropdown-item" href="Home-Theatres.html">Home Threatres</a>
                                 </li>
 
-                                <li><a class="dropdown-item" href="Home-Theatres.html">
+                                <li><a class="dropdown-item" href="Multizone-Audio.html">
                                         Multizone Audio
                                     </a>
                                 </li>
-                                <li><a class="dropdown-item" href="Home-Theatres.html">Multizone Video</a>
+                                <li><a class="dropdown-item" href="Multizone-video.html">Multizone Video</a>
                                 </li>
                                 <li><a class="dropdown-item" href="Motorised-Blinds&Curtains.html">Motorised Blinds &
                                         Curtains</a></li>
@@ -96,22 +96,22 @@
                             <a class="nav-link" href="brand.html">Brands</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Contact">Contact</a>
+                            <a class="nav-link" href="index.html#Contact">Contact</a>
                         </li>
                 </div>
             </div>
         </nav>
     </section>
 
-    <section class="home">
+    <!-- <section class="home">
         <div class="home vh-100 d-flex align-items-center" id="home">
             <img src="brands/artistic-blurry-colorful-wallpaper-background_58702-8259.avif" alt="Home-background"
                 class="Home-background-img" />
             <div class="row">
                 <div class="col-lg-7 mx-auto text-center">
-                    <div class="content-home text-center">
-                        <h1 class="heroh1 display-3 fw-bold text-white">
-                            <span class="logo text-center">Explore All Our Brands</span>
+                    <div class="content-Brands text-center">
+                        <h1 class="heroh2 display-3 fw-bold text-white">
+                            <span class="logo text-center" id="header-brands">Explore All Our Brands</span>
                         </h1>
                         <b>
                             <p class="my-3 text-white">
@@ -126,7 +126,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="solution" id="Brands">
         <div class="container">
@@ -183,6 +183,11 @@
                             </button>
                         </li>
                         <li>
+                            <button class="filter-btn btn btn-outline-primary" data-filter="AC">
+                                AC control
+                            </button>
+                        </li>
+                        <li>
                             <button class="filter-btn btn btn-outline-primary" data-filter="Home-Theatres">
                                 Home Theatres
                             </button>
@@ -213,13 +218,23 @@
                             </button>
                         </li>
                         <li>
-                            <button class="filter-btn btn btn-outline-primary" data-filter="CVS">
+                            <button class="filter-btn btn btn-outline-primary" data-filter="Motorised-Blinds&Curtains">
                                 Motorised Blinds & Curtains
                             </button>
                         </li>
                         <li>
                             <button class="filter-btn btn btn-outline-primary" data-filter="CVS">
                                 Central Vaccum System
+                            </button>
+                        </li>
+                        <li>
+                            <button class="filter-btn btn btn-outline-primary" data-filter="Smoke">
+                                Smoke & Gas Leak Sensor
+                            </button>
+                        </li>
+                        <li>
+                            <button class="filter-btn btn btn-outline-primary" data-filter="Water-Level">
+                                Water Level Contoller
                             </button>
                         </li>
                         <li>

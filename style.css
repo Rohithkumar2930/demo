@@ -35,6 +35,22 @@ html {
 
 
 /* ============Navigation Bar============= */
+
+.Solution-nav {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+.dropdown-menu {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+#d1 {
+    margin-left: 7px;
+}
+
+
 .navbar {
     position: fixed;
     top: 0;
@@ -91,7 +107,51 @@ html {
         margin-left: 10%;
         margin-right: 10%;
     }
+
+    #d2 {
+        padding-left: 10px;
+    }
 }
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        /* Ensure items are vertically centered */
+    }
+
+    .nav-item {
+        margin-right: 10px;
+        /* Adjust spacing between items */
+    }
+
+    .nav-item.dropstart {
+        position: static;
+        /* Override any position styles that might cause misalignment */
+    }
+
+    .dropdown-menu {
+        left: auto;
+        /* Ensure dropdown menu aligns correctly */
+        right: 0;
+        width: auto;
+        top: 100%;
+        /* Ensure dropdown menu appears below its parent */
+        transform: translateX(0);
+        /* Ensure dropdown menu is positioned correctly */
+    }
+
+    .dropdown-item {
+        text-align: center;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+}
+
 
 /* ============Navigation bar End============= */
 
@@ -458,6 +518,51 @@ html {
 
 .qr-code-container:hover .qr-text {
     display: block;
+}
+
+#header-brands {
+    font-size: 70px;
+    width: 100%;
+}
+
+
+
+.content-Brands {
+    width: 100%;
+}
+
+#Brands {
+    margin-top: 80px;
+}
+
+#Message {
+    margin-top: 30px;
+}
+
+#Message h2 {
+    /* padding-top: 50px; */
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-buttons {
+    margin-top: 20px;
+}
+
+.contact-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-buttons button:hover {
+    background-color: #0056b3;
 }
 
 /* ============Contact End Section ============= */
