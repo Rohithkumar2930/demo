@@ -565,6 +565,23 @@ html {
     background-color: #0056b3;
 }
 
+.social-icons {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #555;
+    font-size: 24px;
+}
+
 /* ============Contact End Section ============= */
 
 /* ============Product List Section ============= */

@@ -50,8 +50,18 @@ function openWhatsApp() {
 
 function sendEmail() {
     let emailAddress = "eht@gvrgroups.com";
-    let subject = "Contact Request";
-    let body = "Hello, I would like to inquire about your services.";
+    let subject = "Enquire From Smart-Home-Automation-India";
+    let body = `
+    Hello,
+
+    I would like to inquire about your services.
+
+    Name: 
+    Contact: 
+    Site Location: 
+    Interested Solution: 
+    Notes: 
+  `;
     let url = `https://mail.google.com/mail/?view=cm&to=${emailAddress}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.open(url, '_blank');
 }
