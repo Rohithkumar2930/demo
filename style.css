@@ -561,6 +561,7 @@ html {
     outline: none;
 }
 
+
 .contact-buttons button:hover {
     background-color: #0056b3;
 }
@@ -744,3 +745,8 @@ footer {
 }
 
 /* ============Gate-automation solution end Section ============= */
+
+.error-content {
+    font-size: 22px;
+    margin-left: -50px;
+}
