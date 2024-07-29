@@ -1,4 +1,3 @@
 User-agent: *
 Disallow:
-
 Sitemap: https://local-gvr.vercel.app/sitemap.xml
