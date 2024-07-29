@@ -65,3 +65,5 @@ function sendEmail() {
     let url = `https://mail.google.com/mail/?view=cm&to=${emailAddress}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.open(url, '_blank');
 }
+
+
