@@ -11,6 +11,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .theft-alarm {
+            padding: 50px 0;
+        }
+
+        .slide img {
+            max-width: 100%;
+            height: 700px;
+        }
+
+        @media (max-width: 768px) {
+            .slide img {
+                max-width: 100%;
+                height: 300px;
+            }
+        }
+    </style>
 </head>
 
 <body class="Gate">
@@ -53,7 +70,7 @@
                                         Control</a></li>
                                 <li><a class="dropdown-item" href="AC-Control.html">AC Control</a>
                                 </li>
-                                <li><a class="dropdown-item" href="Home-Theatres.html">Home Threatres</a>
+                                <li><a class="dropdown-item" href="Home-Theatres.html">Home Theatres</a>
                                 </li>
 
                                 <li><a class="dropdown-item" href="Multizone-Audio.html">
@@ -70,10 +87,10 @@
                                 </li>
                                 <li><a class="dropdown-item" href="CVS.html">Central Vaccum System</a>
                                 </li>
-                                <li><a class="dropdown-item" href="Smoke-Gas-Leak-Sensor.html">smoke & Gas Leak
+                                <li><a class="dropdown-item" href="Smoke-Gas-Leak-Sensor.html">Smoke & Gas Leak
                                         Sensors</a>
                                 </li>
-                                <li><a class="dropdown-item" href="Water-Level-Controller.html">water level
+                                <li><a class="dropdown-item" href="Water-Level-Controller.html">Water Level
                                         Controllers</a>
                                 </li>
                                 <li><a class="dropdown-item" href="Massage-chair.html">Massage Chair</a>
@@ -248,70 +265,37 @@
         </div>
     </section>
 
-
-    <section class="Focus" id="Gate1">
+    <section class="theft-alarm">
         <div class="container">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-item">
-                    <div class="slider-item">
-                        <img src="photos/enhance.WebP" class="d-block w-100" alt="Slide 3">
-                        <div class="slider-text">
-                            <h2>Enhanced Lifestyle Experience</h2>
-                            <p>Transforming Living Spaces with Smart Technology: Innovate, Control, and Simplify
-                                Daily Activities for Ultimate Comfort and Efficiency.</p>
-                            <a href="enhance-life-style.html" class="btn btn-outline-light">Explore</a>
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="photos/theft-alarm-1.webp" class="d-block w-100" alt="Slide 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="photos/Theft-alarm-and-pannals-525x525.webp" class="d-block w-100"
+                                    alt="Slide 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="photos/theft-alarm.webp" class="d-block w-100" alt="Slide 3">
+                            </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
-                <div class="carousel-inner">
-
-                    <!-- Slide 1 - YouTube Video -->
-                    <div class="carousel-item active">
-                        <div class="slider-item">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/odDBfOE9aF0"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 2 - YouTube Video -->
-                    <div class="carousel-item">
-                        <div class="slider-item">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b6c0eNIdlBI"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="carousel-item">
-                        <div class="slider-item">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UhDyX5IdxQg"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
         </div>
-
     </section>
 
 

@@ -122,6 +122,10 @@ html {
     }
 }
 
+.card-img-top-1 {
+    height: 200px;
+}
+
 @media (max-width: 991.98px) {
     .navbar-nav {
         display: flex;
@@ -684,6 +688,7 @@ html {
     background: #ccc;
 }
 
+
 /* ============product List End Section ============= */
 /* ============footer Section ============= */
 
@@ -693,6 +698,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    /* position: fixed; */
 }
 
 /* ============footer Section End============= */
